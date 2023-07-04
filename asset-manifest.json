@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d1a34af.css",
+    "main.js": "/static/js/main.7d6b2e00.js",
+    "static/media/Python_Certificate.png": "/static/media/Python_Certificate.6b611e627e5fae72d523.png",
+    "static/media/CSS_Certificate.png": "/static/media/CSS_Certificate.0b171f59e9acab4d9ae8.png",
+    "static/media/MATLAB_Certificate.png": "/static/media/MATLAB_Certificate.cc6c0b1dfced959b5d74.png",
+    "static/media/Simple-Line-Icons.svg?v=2.4.0": "/static/media/Simple-Line-Icons.f1515a459c8850890812.svg",
+    "static/media/Shubhankar.jpg": "/static/media/Shubhankar.2dbca63d1a46f0360725.jpg",
+    "static/media/Matlab_Logo.png": "/static/media/Matlab_Logo.5821b44d86984c741c1b.png",
+    "static/media/Simple-Line-Icons.woff?v=2.4.0": "/static/media/Simple-Line-Icons.5c9febce52054ae0b96d.woff",
+    "static/media/Wordpress.png": "/static/media/Wordpress.33172d0feb357c4dc28a.png",
+    "static/media/Simple-Line-Icons.eot?v=2.4.0": "/static/media/Simple-Line-Icons.85e8c542d5e137beecf9.eot",
+    "static/media/Simple-Line-Icons.ttf?v=2.4.0": "/static/media/Simple-Line-Icons.3ec13a24af3fdda11107.ttf",
+    "static/media/main_bg_14.png": "/static/media/main_bg_14.51073848f581bbef96f1.png",
+    "static/media/Simple-Line-Icons.woff2?v=2.4.0": "/static/media/Simple-Line-Icons.3826fa1cb2348dd93948.woff2",
+    "static/media/C++.png": "/static/media/C++.9ee9755b83ae8c84e864.png",
+    "static/media/Python.png": "/static/media/Python.632369df831d16241b59.png",
+    "index.html": "/index.html",
+    "main.7d1a34af.css.map": "/static/css/main.7d1a34af.css.map",
+    "main.7d6b2e00.js.map": "/static/js/main.7d6b2e00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d1a34af.css",
+    "static/js/main.7d6b2e00.js"
+  ]
+}
