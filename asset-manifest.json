@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Resume/static/css/main.3199d6d5.css",
-    "main.js": "/My_Resume/static/js/main.f7cab1b7.js",
+    "main.css": "/My_Resume/static/css/main.bb5eca61.css",
+    "main.js": "/My_Resume/static/js/main.0bb9483b.js",
     "static/media/Python_Certificate.png": "/My_Resume/static/media/Python_Certificate.6b611e627e5fae72d523.png",
     "static/media/CSS_Certificate.png": "/My_Resume/static/media/CSS_Certificate.0b171f59e9acab4d9ae8.png",
     "static/media/MATLAB_Certificate.png": "/My_Resume/static/media/MATLAB_Certificate.cc6c0b1dfced959b5d74.png",
@@ -17,11 +17,11 @@
     "static/media/C++.png": "/My_Resume/static/media/C++.9ee9755b83ae8c84e864.png",
     "static/media/Python.png": "/My_Resume/static/media/Python.632369df831d16241b59.png",
     "index.html": "/My_Resume/index.html",
-    "main.3199d6d5.css.map": "/My_Resume/static/css/main.3199d6d5.css.map",
-    "main.f7cab1b7.js.map": "/My_Resume/static/js/main.f7cab1b7.js.map"
+    "main.bb5eca61.css.map": "/My_Resume/static/css/main.bb5eca61.css.map",
+    "main.0bb9483b.js.map": "/My_Resume/static/js/main.0bb9483b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3199d6d5.css",
-    "static/js/main.f7cab1b7.js"
+    "static/css/main.bb5eca61.css",
+    "static/js/main.0bb9483b.js"
   ]
 }
