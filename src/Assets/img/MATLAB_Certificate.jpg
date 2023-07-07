@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d95c280b-49a4-480d-868a-96bc2cd8db7a& -->
+<html lang="en" style="background: #525659;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta property="og:title" content="MATLAB Onramp">
+    <meta property="og:image" content="https://matlabacademy.mathworks.com/js/matlabacademy/images/certificate_thumbnail.png?20230605145510">
+    <meta property="og:description" content="Shubhankar Kaushik has completed 100% of MATLAB Onramp">
+    
+    <title>MATLAB Onramp</title>
+
+    <link rel="stylesheet" href="./MATLAB_Certificate_files/css" type="text/css">
+    <link href="./MATLAB_Certificate_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./MATLAB_Certificate_files/site7.css" rel="stylesheet" type="text/css">
+    <link href="./MATLAB_Certificate_files/site7_lg.css" rel="stylesheet" media="screen and (min-width: 1200px)">
+    <link href="./MATLAB_Certificate_files/site7_md.css" rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)">
+    <link href="./MATLAB_Certificate_files/site7_sm+xs.css" rel="stylesheet" media="screen and (max-width: 991px)">
+    <link href="./MATLAB_Certificate_files/site7_sm.css" rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)">
+    <link href="./MATLAB_Certificate_files/site7_xs.css" rel="stylesheet" media="screen and (max-width: 767px)">
+    <!--[if IE 8]>
+    <script src="https://www.mathworks.com/includes_content/responsive/scripts/bootstrap/html5shiv-printshiv.js"></script>
+    <script src="https://www.mathworks.com/includes_content/responsive/scripts/bootstrap/respond.min.js"></script>
+    <![endif]-->
+    <link href="./MATLAB_Certificate_files/mw_font.css" rel="stylesheet" type="text/css">
+    <!-- BEGIN Adobe DTM -->
+    <script src="./MATLAB_Certificate_files/quant.js.download" async="" type="text/javascript"></script><script async="" type="text/javascript" src="./MATLAB_Certificate_files/cmp2.js.download"></script><script async="" type="text/javascript" src="./MATLAB_Certificate_files/choice.js.download"></script><script src="./MATLAB_Certificate_files/satelliteLib-e8d23c2e444abadc572df06537e2def59c01db09.js.download"></script><style>undefined</style><script src="./MATLAB_Certificate_files/AppMeasurement.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/AppMeasurement_Module_ActivityMap.min.js.download" async=""></script>
+    <!-- END Adobe DTM -->
+
+    <script src="./MATLAB_Certificate_files/jquery-latest.js.download"></script>
+    <script src="./MATLAB_Certificate_files/bootstrap.min.js.download"></script>
+    <script src="./MATLAB_Certificate_files/global.js.download"></script>
+
+    <link rel="stylesheet" href="./MATLAB_Certificate_files/omk6upx.css">
+
+    <link rel="stylesheet" href="./MATLAB_Certificate_files/progress.css">
+<style type="text/css"> .qc-cmp-button {    background-color: #0076a8 !important;    border-color: #0076a8 !important;  }  .qc-cmp-button:hover {    border-color: #0076a8 !important;  }  .qc-cmp-alt-action,  .qc-cmp-link {    color: #0076a8 !important;  }  .qc-cmp-button.qc-cmp-secondary-button:hover {    background-color: #0076a8 !important;    border-color: #0076a8 !important;  }  .qc-cmp-button.qc-cmp-secondary-button:hover {    color: #ffffff !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    color: #0076a8 !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    background-color: #eee !important;    border-color: transparent !important;  }  .qc-cmp-ui,  .qc-cmp-ui .qc-cmp-title,  .qc-cmp-ui .qc-cmp-table,  .qc-cmp-ui .qc-cmp-messaging,  .qc-cmp-ui .qc-cmp-sub-title,  .qc-cmp-ui .qc-cmp-vendor-list,  .qc-cmp-ui .qc-cmp-purpose-info,  .qc-cmp-ui .qc-cmp-table-header,  .qc-cmp-ui .qc-cmp-beta-messaging,  .qc-cmp-ui .qc-cmp-main-messaging,  .qc-cmp-ui .qc-cmp-vendor-list-title{    color: #1a1a1a !important;  }  .qc-cmp-ui a,  .qc-cmp-ui .qc-cmp-alt-action {    color: #0076a8 !important;  }  .qc-cmp-ui {    background-color: #fef9ed !important;  } .dvsjko.dvsjko.dvsjko.dvsjko .qc-cmp2-footer .qc-cmp2-summary-buttons button { border-radius: 4px; }.dvsjko.dvsjko.dvsjko.dvsjko .qc-cmp2-footer .qc-cmp2-summary-buttons button:last-child:hover { background-color: #3391b9; }.iicKQX.iicKQX .qc-cmp2-footer .qc-cmp2-buttons-desktop button { border-radius: 4px; }.iicKQX.iicKQX .qc-cmp2-footer .qc-cmp2-buttons-desktop button:last-of-type:hover { background-color: #3391b9; }.iicKQX.iicKQX .qc-cmp2-footer > button { border-radius: 4px; }</style><script src="./MATLAB_Certificate_files/js" async=""></script><script src="./MATLAB_Certificate_files/RC1839728bbf994e4a9dcdd343ccfea692-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RCb721adba20764bcfb94f83ebfb62dc6b-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RCedfaed1d03de47189f18649f7e2d6cb0-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RC906de277bfc24b12a4b2a22af2719a77-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RC9389a43a603e47a8bb02e7005fe391cf-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RC674a4c4f3dcf4045a7d0f57a972d2437-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RCc87629ec9c1c4dc4bc3f3373afa48760-source.min.js.download" async=""></script><script src="./MATLAB_Certificate_files/RC974b32ae31d543638be38b5169a96bd7-source.min.js.download" async=""></script><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="true"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./MATLAB_Certificate_files/css2"></head>
+<body>
+<div class="notificationStrip" style="display:none">
+    <span class="icon-alert-warning notificationIcon"></span>
+    <span class="notificationMessage">This is a private link that only you can view.</span>
+    <span class="notificationAction clickableSpan"><button class="buttonLink" data-toggle="modal" data-target="#standards_doc_modal_02" onclick="getShareURL()">Create a shareable link</button></span>
+    <span>or</span>
+    <span class="notificationAction clickableSpan"><button class="buttonLink" onclick="redirectToPDF()">get a PDF</button></span>
+    <button class="notificationDismiss clickableSpan" onclick="this.parentElement.style.display = &#39;none&#39;">✖</button>
+</div>
+<div class="certificate">
+    <div class="backgroundDiv">
+        <div class="content">
+            <img class="headerImage" src="./MATLAB_Certificate_files/headerlogo.jpg" alt="MathWorks">
+            <div class="largeText">Course Completion Certificate</div>
+            <div class="name">Shubhankar Kaushik</div>
+            
+            <div class="smallText"><span>has successfully completed</span>
+                <span class="percent">100% </span><span>of the self-paced training course</span></div>
+            
+            <div class="mediumText"><a href="https://matlabacademy.mathworks.com/details/gettingstarted" class="courseLink" target="_blank">MATLAB Onramp</a></div>
+            <div class="signature">
+                <img src="./MATLAB_Certificate_files/sign.jpg" alt="MathWorks" width="100%" height="100%">
+            </div>
+            <div class="dateText">
+                <span>25 December 2022</span>
+                
+                
+                
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="shareModal modal fade" id="standards_doc_modal_02" tabindex="-1" role="dialog" aria-labelledby="standards_doc_modal_02_label">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title add_margin_0" id="standards_doc_modal_02_label">Shareable Certificate</h4>
+            </div>
+            <div class="modal-body">
+                <input id="shareURL" type="text" readonly="readonly">
+                <button onclick="copyURL();"><span class="icon-mw-copy"></span></button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn companion_btn btn_color_blue" data-dismiss="modal">Close</button>
+                <a id="gotoLink" type="button" class="btn btn_color_blue">Go to link</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- A temporary form create to send a post request with the required fields-->
+<form id="tempForm" method="post" action="https://matlabacademy.mathworks.com/progress/instructorled/certificate.pdf">
+    <input type="hidden" name="className" value="">
+    <input type="hidden" name="startDate" value="">
+    <input type="hidden" name="endDate" value="">
+    <input type="hidden" name="languageName" value="">
+</form>
+
+<script>
+    //<![CDATA[
+    function getShareURL() {
+        if ("MATLAB Onramp") {
+            console.log("Course selected");
+            getCourseShareURL();
+        }
+        else {
+            getTrainingShareURL();
+        }
+
+    }
+
+    function getCourseShareURL() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var baseURL;
+                if (document.location.href.includes("/jp/"))
+                    baseURL = document.location.href.replace(/jp\/certificate\.html.*/, "share/certificate.html?id=");
+                else
+                    baseURL = document.location.href.replace(/certificate\.html.*/, "share/certificate.html?id=");
+                document.getElementById("shareURL").value = baseURL + this.responseText;
+                document.getElementById("gotoLink").href = baseURL + this.responseText;
+                document.getElementById("shareURL").select();
+            }
+        };
+        var requestURL = "";
+        if (document.location.href.includes("/jp/"))
+            requestURL = document.location.href.replace("jp/certificate.html", "share");
+        else
+            requestURL = document.location.href.replace("certificate.html", "share");
+        console.log(requestURL);
+        xhttp.open("GET", requestURL, true);
+        xhttp.send();
+    }
+
+
+    function getTrainingShareURL() {
+        var xhttp = new XMLHttpRequest();
+        var params;
+        if (null)
+            params = 'className=' + null + '&startDate=' + null + '&endDate=' + null + '&languageName=' + null + '&courseName=' + null;
+        else
+            params = 'className=' + null + '&startDate=' + null + '&endDate=' + null + '&languageName=' + null + '&courseName=' + null;
+        console.log(params);
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var baseURL;
+                if (document.location.href.includes("/jp/"))
+                    baseURL = document.location.href.replace(/jp\/certificate\.html.*/, "share/certificate.html?id=")
+                else
+                    baseURL = document.location.href.replace(/certificate\.html.*/, "share/certificate.html?id=")
+                document.getElementById("shareURL").value = baseURL + this.responseText;
+                document.getElementById("gotoLink").href = baseURL + this.responseText;
+                document.getElementById("shareURL").select();
+
+            }
+        };
+
+        var requestURL = "";
+        if (document.location.href.includes("/jp/"))
+            requestURL = document.location.href.replace("jp/certificate.html", "share");
+        else
+            requestURL = document.location.href.replace("certificate.html", "share");
+        xhttp.open("POST", requestURL, true);
+        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhttp.setRequestHeader("accept-encoding","UTF-8");
+        xhttp.send(params);
+    }
+
+    function copyURL() {
+        document.getElementById("shareURL").select();
+        document.execCommand("copy");
+    }
+
+    function redirectToPDF() {
+        if ("MATLAB Onramp")
+            self.location.href = "\/progress\/certificate.pdf?course=gettingstarted\u0026release=R2022b\u0026language=en";
+        else
+            document.getElementById('tempForm').submit();
+    }
+
+    //]]>
+</script><script>
+(function() {
+  var host = 'mathworks.com';
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.quantcast.com'
+    .concat('/choice/', 'zfNtLVVEHXE-1', '/', host, '/choice.js?tag_version=V2');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V2' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  }
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+
+//API call and event listener callback 
+__tcfapi('addEventListener', 2, function (tcData, success) {
+    var server = window.location.hostname;
+    var google = false;
+    var facebook = false;
+    var quantcast = false;
+    var twitter = false;
+    var twitterJapan = false;
+    var adCloud = false;
+    var linkedIn = false;
+    var yahoo = false;
+    var across = false;
+    var baidu = false;
+    var weChat = false;
+    var researchGate = false;
+    var terminus = false;
+    var fancyDigital = false;
+    var quora = false;
+    var appcast = false;
+    var consentResult = false;
+    var liResult = false;
+
+    //set services by domain
+    if (server.indexOf('ww2-') == -1 && server.indexOf('ww2.') == -1 && server.indexOf('matlab.') == -1 && server.indexOf('home-dev') == -1 ) {
+        google = true;
+        facebook = true;
+        adCloud = true;
+        terminus = true;
+    }
+    if (server.indexOf('ww2-') == -1 && server.indexOf('ww2.') == -1 && server.indexOf('in-') == -1 && server.indexOf('in.') == -1) {
+        quantcast = true;
+    }
+
+    if (server.indexOf('ww2-') == -1 && server.indexOf('ww2.') == -1 && server.indexOf('kr-') == -1 && server.indexOf('kr.') && server.indexOf('jp-') == -1 && server.indexOf('jp.') == -1) {
+        twitter = true;
+        linkedIn = true;
+    }
+
+    if (server.indexOf('matlabacademy-') > -1 || server.indexOf('matlabacademy.') > -1) {
+        quora = true;
+    }
+    if (server.indexOf('www-test') > -1 || server.indexOf('www-stage') > -1 || server.indexOf('www-integ') > -1 || server.indexOf('www.') > -1) {
+        quora = true;
+        appcast = true;
+    }
+    if (server.indexOf('jp-test') > -1 || server.indexOf('jp-stage') > -1 || server.indexOf('jp-integ') > -1 || server.indexOf('jp.') > -1) {
+        yahoo = true;
+        twitterJapan = true;
+    }
+    if (server.indexOf('ww2-test') > -1 || server.indexOf('ww2-stage') > -1 || server.indexOf('ww2-integ') > -1 || server.indexOf('ww2.') > -1) {
+        baidu = true;
+        weChat = true;
+        fancyDigital = true;
+    }
+    if (server.indexOf('kr-test') > -1 || server.indexOf('kr-stage') > -1 || server.indexOf('kr-integ') > -1 || server.indexOf('kr.') > -1) {
+        across = true;
+    }
+    if (server.indexOf('matlab.') > -1 || server.indexOf('home-dev') > -1 ) {
+        google = false;
+        facebook = false;
+        adCloud = false;
+        terminus = false;
+        quantcast = false;
+        twitter = false;
+        linkedIn = false;
+    }
+
+    //determine if CMP loaded,what consent status is,call scripts 
+    if (success) {
+        if (tcData.gdprApplies) {
+            if (tcData.eventStatus === 'tcloaded') {
+                if ('1' in tcData.purpose.consents && tcData.purpose.consents[10] === true) {
+                    for (i = 1; i < 6; i++) {
+                        if (tcData.purpose.consents[i] === false) {
+                            consentResult = false;
+                            break;
+                        } else {
+                            consentResult = true;
+                        }
+                    }
+                }
+
+                if ('1' in tcData.purpose.legitimateInterests && tcData.purpose.legitimateInterests[2] && tcData.purpose.legitimateInterests[5] && tcData.purpose.legitimateInterests[10]) {
+                    liResult = 'true';
+                }
+                //fire scripts here
+                if ((consentResult) && (liResult)) {_satellite.cookie.set('cmpConsent', 'true', { domain: _satellite.getVar('treasureDataSscDomain') })}
+                if ((consentResult) && (liResult) && (google)) { _satellite.track('googleBase'); }
+                if ((consentResult) && (liResult) && (facebook)) { _satellite.track('facebookBase'); }
+                if ((consentResult) && (liResult) && (quantcast)) { _satellite.track('quantcastBase'); }
+                if ((consentResult) && (liResult) && (adCloud)) { _satellite.track('adCloudBase'); }
+                if ((consentResult) && (liResult) && (twitter)) { _satellite.track('twitterBase'); }
+                if ((consentResult) && (liResult) && (researchGate)) { _satellite.track('researchGateBase'); }
+                if ((consentResult) && (liResult) && (terminus)) { _satellite.track('terminusBase'); }
+                if ((consentResult) && (liResult) && (linkedIn)) { _satellite.track('linkedInBase'); }
+                if ((consentResult) && (liResult) && (twitterJapan)) { _satellite.track('twitterBaseJapan'); }
+                if ((consentResult) && (liResult) && (yahoo)) { _satellite.track('yahooBase'); }
+                if ((consentResult) && (liResult) && (across)) { _satellite.track('acrossBase'); }
+                if ((consentResult) && (liResult) && (baidu)) { _satellite.track('baiduBase'); }
+                if ((consentResult) && (liResult) && (weChat)) { _satellite.track('weChatBase'); }
+                if ((consentResult) && (liResult) && (fancyDigital)) { _satellite.track('fancyDigitalBase'); }
+                if ((consentResult) && (liResult) && (quora)) { _satellite.track('quoraBase'); }
+                if ((consentResult) && (liResult) && (appcast)) { _satellite.track('appcastBase'); }
+
+            } else if (tcData.eventStatus === 'useractioncomplete') {
+                if ('1' in tcData.purpose.consents && tcData.purpose.consents[10] === true) {
+                    for (i = 1; i < 6; i++) {
+                        if (tcData.purpose.consents[i] === false) {
+                            consentResult = false;
+                            break;
+                        } else {
+                            consentResult = true;
+                        }
+                    }
+                }
+
+                if ('1' in tcData.purpose.legitimateInterests && tcData.purpose.legitimateInterests[2] && tcData.purpose.legitimateInterests[5] && tcData.purpose.legitimateInterests[10]) {
+                    liResult = 'true';
+                }
+                //fire scripts here
+                if ((consentResult) && (liResult)) {_satellite.cookie.set('cmpConsent', 'true', { domain: _satellite.getVar('treasureDataSscDomain') })}
+                if ((consentResult) && (liResult) && (google)) { _satellite.track('googleBase'); }
+                if ((consentResult) && (liResult) && (facebook)) { _satellite.track('facebookBase'); }
+                if ((consentResult) && (liResult) && (quantcast)) { _satellite.track('quantcastBase'); }
+                if ((consentResult) && (liResult) && (adCloud)) { _satellite.track('adCloudBase'); }
+                if ((consentResult) && (liResult) && (twitter)) { _satellite.track('twitterBase'); }
+                if ((consentResult) && (liResult) && (researchGate)) { _satellite.track('researchGateBase'); }
+                if ((consentResult) && (liResult) && (terminus)) { _satellite.track('terminusBase'); }
+                if ((consentResult) && (liResult) && (twitterJapan)) { _satellite.track('twitterBaseJapan'); }
+                if ((consentResult) && (liResult) && (linkedIn)) { _satellite.track('linkedInBase'); }
+                if ((consentResult) && (liResult) && (yahoo)) { _satellite.track('yahooBase'); }
+                if ((consentResult) && (liResult) && (across)) { _satellite.track('acrossBase'); }
+                if ((consentResult) && (liResult) && (baidu)) { _satellite.track('baiduBase'); }
+                if ((consentResult) && (liResult) && (weChat)) { _satellite.track('weChatBase'); }
+                if ((consentResult) && (liResult) && (fancyDigital)) { _satellite.track('fancyDigitalBase'); }
+                if ((consentResult) && (liResult) && (quora)) { _satellite.track('quoraBase'); }
+                if ((consentResult) && (liResult) && (appcast)) { _satellite.track('appcastBase'); }
+                
+            } else {
+                // print a debug error message to the console
+            }
+        } else { /* gdpr does not apply */
+            // Most likely you want to make the ad request in this case 
+            _satellite.cookie.set('cmpConsent', 'true', { domain: _satellite.getVar('treasureDataSscDomain') });
+            if (google) { _satellite.track('googleBase'); }
+            if (facebook) { _satellite.track('facebookBase'); }
+            if (quantcast) { _satellite.track('quantcastBase'); }
+            if (adCloud) { _satellite.track('adCloudBase'); }
+            if (twitter) { _satellite.track('twitterBase'); }
+            if (researchGate) { _satellite.track('researchGateBase'); }
+            if (terminus) { _satellite.track('terminusBase'); }
+            if (twitterJapan) { _satellite.track('twitterBaseJapan'); }
+            if (linkedIn) { _satellite.track('linkedInBase'); }
+            if (yahoo) { _satellite.track('yahooBase'); }
+            if (across) { _satellite.track('acrossBase'); }
+            if (baidu) { _satellite.track('baiduBase'); }
+            if (weChat) { _satellite.track('weChatBase'); }
+            if (fancyDigital) { _satellite.track('fancyDigitalBase'); }
+            if (quora) { _satellite.track('quoraBase'); }
+            if ((appcast)) { _satellite.track('appcastBase'); }
+        }
+    }
+})
+</script><iframe name="__tcfapiLocator" style="display: none;" src="./MATLAB_Certificate_files/saved_resource.html"></iframe>
+<script>
+    if (typeof dojoConfig === 'undefined') {
+        dojoConfig = {};
+    }
+    dojoConfig.locale = "en";
+    dojoConfig.cacheBust = true;
+</script>
+<script>_satellite["_runScript1"](function(event, target, Promise) {
+_satellite.cookie.set("_sdsat_eid",_satellite.getVar('eid'),1);
+});</script><a class="btn btn_color_mediumgray" id="go-top"><span class="icon-arrow-open-up icon_24"></span></a></body></html>
