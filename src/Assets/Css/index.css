@@ -125,6 +125,11 @@ div.owl-nav{
   #Cont{
     padding: 0px !important;
   }
+
+  .size{
+    margin: auto;
+    width: 50% !important;
+  }
     
   .rounded{
     border-radius: 0px !important;
@@ -132,6 +137,10 @@ div.owl-nav{
 
   .center-sm{
     margin-right: 0px;
+  }
+
+  .padt-0{
+    padding-top: 0px !important;
   }
 
   .pad-0{
@@ -152,5 +161,5 @@ div.owl-nav{
 
 
 :required{
-  border: 3px solid red;
+  border: 2px solid red;
 }

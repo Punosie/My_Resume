@@ -15,7 +15,7 @@ import Git from '../Assets/img/Git.png';
 
 function Owl(){
     return(
-        <OwlCarousel className='owl-theme p-5' loop margin={10} nav>
+        <OwlCarousel className='owl-theme py-5 px-3' loop margin={10} nav>
             <div class='item'>
                 <img src={Python} alt="Python Logo" className='size' />
             </div>

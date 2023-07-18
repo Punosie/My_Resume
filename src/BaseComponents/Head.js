@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark" className='rounded'>
-      <Container>
-        <Navbar.Brand to="/" className='py-4 px-4 text-wrap ' style={{fontWeight:'900', fontSize:'2rem', letterSpacing:'2px', fontFamily: 'Dancing Script'}}><FontAwesomeIcon icon={faGhost} size='2xl' style={{color: "#ffffff",}} /> &nbsp; <span>Shubhankar</span><span className='disp-none'> Kaushik</span></Navbar.Brand>
+      <Container className='p-0'>
+        <Navbar.Brand to="/" className='py-4 px-4 text-wrap ' style={{fontWeight:'900', fontSize:'2rem', letterSpacing:'2px', fontFamily: 'Dancing Script'}}><FontAwesomeIcon icon={faGhost} size='xl' style={{color: "#ffffff",}} /> &nbsp; <span>Shubhankar</span><span className='disp-none'> Kaushik</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

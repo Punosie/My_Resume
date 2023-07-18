@@ -10,7 +10,7 @@ import SimpleLineIcon from 'react-simple-line-icons';
 function Footer() {
   return (
 
-    <Container className='py-5'>
+    <Container className='padt-0 py-5'>
       <Row className='text-bg-dark px-5 rounded text-center'>
           <Col md={4} lg={3}><NavLink className=' text-light' to="https://www.instagram.com/shubhankar.2003/" rel="noreferrer" target='_blank' style={{textDecoration:'none'}}>Instagram<SimpleLineIcon name="SocialInstagram" /></NavLink></Col>
           <Col md={4} lg={3}><NavLink className=' text-light' to="https://www.linkedin.com/in/shubhankar-kaushik-19968b246" rel="noreferrer" target='_blank' style={{textDecoration:'none'}}>Linkedin</NavLink></Col>
