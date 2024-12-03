@@ -16,7 +16,7 @@ function Home() {
             <NavBar />
             <Content />
             <Info />
-            <Owl />
+            {/* <Owl /> */}
             <Footer />
           </Col>
         </Row>

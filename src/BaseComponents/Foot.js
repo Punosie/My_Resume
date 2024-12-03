@@ -1,24 +1,62 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHeart} from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom';
-import SimpleLineIcon from 'react-simple-line-icons';
-// import { SlSocialInstagram } from "react-icons/sl";
 
 function Footer() {
   return (
-
-    <Container className='padt-0 py-5'>
+    <Container className='padt-0 py-5 border-top'>
       <Row className='text-bg-dark px-5 rounded text-center'>
-          <Col md={4} lg={3}><NavLink className=' text-light' to="https://www.instagram.com/shubhankar.2003/" rel="noreferrer" target='_blank' style={{textDecoration:'none'}}>Instagram<SimpleLineIcon name="SocialInstagram" /></NavLink></Col>
-          <Col md={4} lg={3}><NavLink className=' text-light' to="https://www.linkedin.com/in/shubhankar-kaushik-19968b246" rel="noreferrer" target='_blank' style={{textDecoration:'none'}}>Linkedin</NavLink></Col>
-          <Col md={4} lg={3}><NavLink className=' text-light' to="https://github.com/Shubhankar2003" rel="noreferrer" target='_blank' style={{textDecoration:'none'}}>GitHub</NavLink></Col>
-          <Col sm={12} md={12} lg={3} className='text-center' ><span>Made with&nbsp; <FontAwesomeIcon icon={faHeart} style={{color: "#ff0000", paddingTop:'5px'}} />&nbsp; by Shubhankar Kaushik</span></Col>
+        {/* Instagram */}
+        <Col md={4} lg={3}>
+          <NavLink
+            className='text-light'
+            to="https://www.instagram.com/punosie/"
+            rel="noreferrer"
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            <i className="fa-brands fa-instagram" style={{ color: "#FFD43B", fontSize: '2rem' }}></i>
+          </NavLink>
+        </Col>
+
+        {/* LinkedIn */}
+        <Col md={4} lg={3}>
+          <NavLink
+            className='text-light'
+            to="https://www.linkedin.com/in/shubhankar-kaushik-19968b246"
+            rel="noreferrer"
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            <i className="fa-brands fa-linkedin-in" style={{ color: "#FFD43B", fontSize: '2rem' }}></i>
+          </NavLink>
+        </Col>
+
+        {/* GitHub */}
+        <Col md={4} lg={3}>
+          <NavLink
+            className='text-light'
+            to="https://github.com/Shubhankar2003"
+            rel="noreferrer"
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            <i className="fa-brands fa-github" style={{ color: "#FFD43B", fontSize: '2rem' }}></i>
+          </NavLink>
+        </Col>
+
+        {/* Signature */}
+        <Col sm={12} md={12} lg={3} className='text-center'>
+          <span>
+            Made with&nbsp;
+            <i className="fa-solid fa-heart" style={{ color: "#ff0000"}}></i>
+            &nbsp;by Shubhankar Kaushik
+          </span>
+        </Col>
       </Row>
     </Container>
   );
 }
 
-export default Footer;  
+export default Footer;

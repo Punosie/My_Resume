@@ -163,3 +163,16 @@ div.owl-nav{
 :required{
   border: 2px solid red;
 }
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .btn {
+  width: 100px;
+}

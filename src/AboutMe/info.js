@@ -1,70 +1,167 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faPenToSquare} from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faBasketballBall, faUser, faFilm } from '@fortawesome/free-solid-svg-icons';
 
+// Corrected imports for assets (using relative paths)
+import Render01 from '../Assets/img/Render01.png';
+import Render02 from '../Assets/img/Render02.png'; // Additional image 1
+import Render03 from '../Assets/img/Render03.png'; // Additional image 2
+import Render04 from '../Assets/img/Render04.png'; // Additional image 3
+import Video01 from '../Assets/Vids/Video01.mp4';
+import Video02 from '../Assets/Vids/Video02.mp4';
 
-function Info(){
-    return(
+function AboutMe() {
+    return (
         <Container>
             <Row className='mt-3'>
-                <Col md = {12} className='mt-2 py-2'>
-                    <h2 className='w-25 p-2'>Skills</h2>
-                </Col>
+                {/* Gaming Section */}
                 <Col md={6} className='mt-2 py-2'>
                     <div className='d-flex align-items-start'>
                         <div className='p-2'>
-                            <FontAwesomeIcon icon={faPenToSquare} size="xl" style={{color: "#007ced",}} />
+                            <FontAwesomeIcon icon={faGamepad} size="2xl" style={{ color: "#007ced" }} />
                         </div>
                         <div className='p-2'>
-                            <h4>Python</h4>
-                            <p style={{color:"#b7b7b7"}}>Highly skilled in Python programming language, proficient in developing robust and scalable applications. Experienced in utilizing Python's extensive libraries and frameworks to streamline development processes and solve complex problems efficiently.</p>
+                            <h4>Gaming</h4>
+                            <p style={{ color: "#b7b7b7" }}>
+                                A huge fan of competitive gaming, especially games like Valorant, where precision, strategy, and teamwork make every match exciting and challenging. I enjoy the adrenaline rush of tactical gameplay and constantly strive to improve my skills.
+                            </p>
                         </div>
                     </div>
                 </Col>
+
+                {/* Blender Section */}
                 <Col md={6} className='mt-2 py-2'>
                     <div className='d-flex align-items-start'>
                         <div className='p-2'>
-                            <FontAwesomeIcon icon={faPenToSquare} size="xl" style={{color: "#007ced",}} />
+                            <FontAwesomeIcon icon={faUser} size="2xl" style={{ color: "#007ced" }} />
                         </div>
                         <div className='p-2'>
-                            <h4>HTML</h4>
-                            <p style={{color:"#b7b7b7"}}>Experienced in HTML, proficient in writing clean and semantic markup to ensure proper structuring and accessibility of web pages. Skilled in utilizing HTML tags, attributes, and elements to create well-organized and functional web content.</p>
+                            <h4>Blender & 3D Modeling</h4>
+                            <p style={{ color: "#b7b7b7" }}>
+                                I love working with Blender to create 3D models and animations. Whether it's a personal project or a creative experiment, I enjoy exploring the endless possibilities of 3D design and bringing ideas to life in the virtual world.
+                            </p>
                         </div>
                     </div>
                 </Col>
+
+                {/* Badminton Section */}
                 <Col md={6} className='mt-2 py-2'>
                     <div className='d-flex align-items-start'>
                         <div className='p-2'>
-                            <FontAwesomeIcon icon={faPenToSquare} size="xl" style={{color: "#007ced",}} />
+                            <FontAwesomeIcon icon={faBasketballBall} size="2xl" style={{ color: "#007ced" }} />
                         </div>
                         <div className='p-2'>
-                            <h4>CSS</h4>
-                            <p style={{color:"#b7b7b7"}}>Proficient in CSS, adept at designing and styling web elements to enhance the visual appeal and user experience. Experienced in utilizing CSS selectors, properties, and media queries to create responsive layouts and implement custom designs.</p>
+                            <h4>Badminton</h4>
+                            <p style={{ color: "#b7b7b7" }}>
+                                Badminton is one of my favorite sports. It's a great way to stay active, have fun, and challenge myself. Whether it's playing with friends or honing my skills, badminton always brings me joy and keeps me energized.
+                            </p>
                         </div>
                     </div>
                 </Col>
+
+                {/* Anime Section */}
                 <Col md={6} className='mt-2 py-2'>
                     <div className='d-flex align-items-start'>
                         <div className='p-2'>
-                            <FontAwesomeIcon icon={faPenToSquare} size="xl" style={{color: "#007ced",}} />
+                            <FontAwesomeIcon icon={faFilm} size="2xl" style={{ color: "#007ced" }} />
                         </div>
                         <div className='p-2'>
-                            <h4>Bootstrap</h4>
-                            <p style={{color:"#b7b7b7"}}>Skilled in utilizing Bootstrap framework, proficient in leveraging its responsive grid system, pre-built components, and utility classes to create modern and mobile-friendly websites. Experienced in customizing Bootstrap elements to achieve desired design aesthetics while ensuring cross-browser compatibility.</p>
+                            <h4>Anime</h4>
+                            <p style={{ color: "#b7b7b7" }}>
+                                I'm an avid anime fan! I enjoy a wide variety of anime genres, from action-packed series to thought-provoking dramas. Some of my favorite anime include classics like "Jobless Reincarnation," "Attack on Titan," and "My Hero Academia." Anime inspires creativity and storytelling, and I love diving into new series.
+                            </p>
                         </div>
                     </div>
                 </Col>
             </Row>
+
+            {/* Section Heading: Blender Works */}
+            <Row className="mt-4">
+                <Col md={12} className="text-center">
+                    <br />
+                    <h2 style={{ color: "white" }}>SOME OF MY WORKS IN BLENDER</h2>
+                    <br />
+                </Col>
+            </Row>
+
+            {/* Section Sub-heading for 3D Models */}
+            <Row className="mt-4">
+                <Col md={12} className="text-center">
+                    <hr />
+                    <h4 style={{ color: "white" }}>3D MODELS</h4>
+                </Col>
+            </Row>
+
+            {/* Blender Cards with Image for 3D Models */}
+            <Row className="mt-4 justify-content-center">
+                <Col md={4} className="mb-4 d-flex justify-content-center">
+                    <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
+                        <Card.Img variant="top" src={Render01} />
+                        <Card.Body>
+                            <Button href="https://www.instagram.com/p/DC2zFkLhUlc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" variant="outline-light" block>More</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col md={4} className="mb-4 d-flex justify-content-center">
+                    <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
+                        <Card.Img variant="top" src={Render04} />
+                        <Card.Body>
+                            <Button href="https://www.instagram.com/p/C_BmtIWBjro/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" variant="outline-light" block>More</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col md={4} className="mb-4 d-flex justify-content-center">
+                    <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
+                        <Card.Img variant="top" src={Render03} />
+                        <Card.Body>
+                            <Button href="https://www.instagram.com/p/DCIDSO4zlIc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" variant="outline-light" block>More</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
+            {/* Section Sub-heading for Animations */}
+            <Row className="mt-4">
+                <Col md={12} className="text-center">
+                    <hr />
+                    <h4 style={{ color: "white" }}>ANIMATIONS</h4>
+                </Col>
+            </Row>
+
+            {/* Blender Cards with Video for Animations */}
+            <Row className="mt-4 justify-content-center">
+                <Col md={4} className="mb-4 d-flex justify-content-center">
+                    <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
+                        <video width="100%" height="auto" controls>
+                            <source src={Video01} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <Card.Body>
+                            <Button href="https://www.instagram.com/reel/C_SuFQchvui/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" variant="outline-light" block>More</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col md={4} className="mb-4 d-flex justify-content-center">
+                    <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
+                        <video width="100%" height="auto" controls>
+                            <source src={Video02} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <Card.Body>
+                            <Button href="https://www.instagram.com/reel/DCZ3wcbsTp4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" variant="outline-light" block>More</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
         </Container>
-    )
+    );
 }
 
-
-
-
-
-
-
-export default Info;
+export default AboutMe;
