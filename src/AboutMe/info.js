@@ -79,7 +79,7 @@ function AboutMe() {
                 </Col>
             </Row>
 
-            {/* Section Heading: Blender Works */}
+            {/* Section Heading: Blender Works
             <Row className="mt-4">
                 <Col md={12} className="text-center">
                     <br />
@@ -88,7 +88,6 @@ function AboutMe() {
                 </Col>
             </Row>
 
-            {/* Section Sub-heading for 3D Models */}
             <Row className="mt-4">
                 <Col md={12} className="text-center">
                     <hr />
@@ -96,7 +95,6 @@ function AboutMe() {
                 </Col>
             </Row>
 
-            {/* Blender Cards with Image for 3D Models */}
             <Row className="mt-4 justify-content-center">
                 <Col md={4} className="mb-4 d-flex justify-content-center">
                     <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
@@ -126,7 +124,6 @@ function AboutMe() {
                 </Col>
             </Row>
 
-            {/* Section Sub-heading for Animations */}
             <Row className="mt-4">
                 <Col md={12} className="text-center">
                     <hr />
@@ -134,7 +131,6 @@ function AboutMe() {
                 </Col>
             </Row>
 
-            {/* Blender Cards with Video for Animations */}
             <Row className="mt-4 justify-content-center">
                 <Col md={4} className="mb-4 d-flex justify-content-center">
                     <Card style={{ width: '18rem' }} className="bg-dark text-light border-secondary">
@@ -159,7 +155,7 @@ function AboutMe() {
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
+            </Row> */}
         </Container>
     );
 }
