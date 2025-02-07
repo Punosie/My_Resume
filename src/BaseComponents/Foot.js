@@ -37,7 +37,7 @@ function Footer() {
         <Col md={4} lg={3}>
           <NavLink
             className='text-light'
-            to="https://github.com/Shubhankar2003"
+            to="https://github.com/Punosie"
             rel="noreferrer"
             target='_blank'
             style={{ textDecoration: 'none' }}
