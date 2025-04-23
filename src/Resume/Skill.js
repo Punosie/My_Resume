@@ -1,94 +1,105 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import Badge from 'react-bootstrap/Badge';
+import Card from 'react-bootstrap/Card';
 
 function Progress() {
-  return(
-    <Container className='py-5'>
-      <Row>
-        {/* HTML Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>HTML</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={90} />
+  const cardStyle = {
+    backgroundColor: '#212529', // Bootstrap dark background
+    borderRadius: '20px',
+    border : '1.5px solid rgba(255, 255, 255, 0.3)',
+    // boxShadow: '0 4px 10px rgba(255, 255, 255, 0.07)',
+    transition: 'all 0.3s ease',
+  };
+
+  const hoverStyle = {
+    // transform: 'translateY(-8px)',
+    // boxShadow: '0 8px 20px rgba(255, 255, 255, 0.2)',
+  };
+
+  const badgeStyle = {
+    fontSize: '0.9rem',
+    padding: '8px 14px',
+    borderRadius: '12px',
+  };
+
+  return (
+    <Container className='pb-5 pt-4'>
+      <Row className='g-4'>
+
+        {/* Frontend Skills */}
+        <Col md={4}>
+          <Card
+            style={cardStyle}
+            className="text-center text-light p-3"
+            onMouseEnter={e => {
+              Object.assign(e.currentTarget.style, hoverStyle);
+            }}
+            onMouseLeave={e => {
+              Object.assign(e.currentTarget.style, cardStyle);
+            }}
+          >
+            <Card.Body className='pt-0'>
+              <Card.Title className="mb-4 pb-2 border-bottom ">Frontend</Card.Title>
+              <div className='d-flex flex-wrap gap-2 justify-content-center'>
+                <Badge bg="primary" style={badgeStyle}>HTML</Badge>
+                <Badge bg="primary" style={badgeStyle}>CSS</Badge>
+                <Badge bg="primary" style={badgeStyle}>React.js</Badge>
+                <Badge bg="primary" style={badgeStyle}>Three.js</Badge>
+                <Badge bg="primary" style={badgeStyle}>Python Tkinter</Badge>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
 
-        {/* CSS Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>CSS</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={90} />
+        {/* Backend Skills */}
+        <Col md={4}>
+          <Card
+            style={cardStyle}
+            className="text-center text-light p-3"
+            onMouseEnter={e => {
+              Object.assign(e.currentTarget.style, hoverStyle);
+            }}
+            onMouseLeave={e => {
+              Object.assign(e.currentTarget.style, cardStyle);
+            }}
+          >
+            <Card.Body className='pt-0'>
+            <Card.Title className="mb-4 pb-2 border-bottom ">Backend</Card.Title>
+              <div className='d-flex flex-wrap gap-2 justify-content-center'>
+                <Badge bg="success" style={badgeStyle}>Express.js</Badge>
+                <Badge bg="success" style={badgeStyle}>Node.js</Badge>
+                <Badge bg="success" style={badgeStyle}>MongoDB</Badge>
+                <Badge bg="success" style={badgeStyle}>MySQL</Badge>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
 
-        {/* Python Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Python</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={90} />
-        </Col>
-
-        {/* React.js Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>React.js</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={75} />
-        </Col>
-
-        {/* JavaScript Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>JavaScript</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={70} />
-        </Col>
-
-        {/* MySQL Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>MySQL</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={60} />
-        </Col>
-
-        {/* C++ Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>C++</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={50} />
-        </Col>
-
-        {/* C Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>C</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={40} />
-        </Col>
-
-        {/* Matlab Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Matlab</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={40} />
-        </Col>
-
-        {/* Three.js Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Three.js</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={40} />
-        </Col>
-
-        {/* Blender Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Blender</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={75} />
-        </Col>
-
-        {/* Express.js Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Express.js</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={70} />
-        </Col>
-
-        {/* Node.js Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>Node.js</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={75} />
-        </Col>
-
-        {/* MongoDB Skill */}
-        <Col md={6} className='text-bg-dark rounded py-2'>   
-            <h6 className='mx-5'>MongoDB</h6>
-            <ProgressBar className='mx-5 my-3 progress-sm' now={60} />
+        {/* Programming Languages */}
+        <Col md={4}>
+          <Card
+            style={cardStyle}
+            className="text-center text-light p-3"
+            onMouseEnter={e => {
+              Object.assign(e.currentTarget.style, hoverStyle);
+            }}
+            onMouseLeave={e => {
+              Object.assign(e.currentTarget.style, cardStyle);
+            }}
+          >
+            <Card.Body className='pt-0'>
+            <Card.Title className="mb-4 pb-2 border-bottom ">Programming Languages</Card.Title>
+              <div className='d-flex flex-wrap gap-2 justify-content-center'>
+                <Badge bg="warning" text="dark" style={badgeStyle}>Python</Badge>
+                <Badge bg="warning" text="dark" style={badgeStyle}>JavaScript</Badge>
+                <Badge bg="warning" text="dark" style={badgeStyle}>C++</Badge>
+                <Badge bg="warning" text="dark" style={badgeStyle}>C</Badge>
+                <Badge bg="warning" text="dark" style={badgeStyle}>Matlab</Badge>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
 
       </Row>

@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'; // If needed for extra buttons
 import Progress from '../Skill';
 import { MDBContainer } from "mdb-react-ui-kit";
 import Certificate from "./Certification";
@@ -76,19 +75,27 @@ export default function App() {
               <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
                   <Card.Body>
-                    <Card.Title>Text Editor</Card.Title>
-                    <Card.Text>
-                      A Python Tkinter-based text editor with core features like save, find, and open.
+                    <Card.Title  className= "border-bottom p-2 text-center">WeightMate</Card.Title>
+                    <Card.Text className="text-white-50">
+                      A full stack weight tracking app with user authentication and data visualization.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer className="text-center">
+                  <Card.Footer className="d-flex justify-content-between text-center">
                     <a
-                      href="https://github.com/Punosie/Notepad.py"
+                      href="https://github.com/Punosie/WeightMate"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-outline-success btn-sm"
                     >
                       GitHub
+                    </a>
+                    <a
+                      href="https://weightmate.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-primary btn-sm"
+                    >
+                      Live Preview
                     </a>
                   </Card.Footer>
                 </Card>
@@ -98,8 +105,8 @@ export default function App() {
               <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
                   <Card.Body>
-                    <Card.Title>DhanMantri</Card.Title>
-                    <Card.Text>
+                    <Card.Title  className= "border-bottom p-2 text-center">DhanMantri</Card.Title>
+                    <Card.Text className="text-white-50">
                       A MERN stack app for financial data visualization using Yahoo Finance data.
                     </Card.Text>
                   </Card.Body>
@@ -128,8 +135,38 @@ export default function App() {
               <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
                   <Card.Body>
-                    <Card.Title>TrackIt</Card.Title>
-                    <Card.Text>
+                    <Card.Title  className= "border-bottom p-2 text-center">Streamify</Card.Title>
+                    <Card.Text className="text-white-50">
+                     Admin Interface with tables and charts for managing a music streaming platform.
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className="d-flex justify-content-between text-center">
+                    <a
+                      href="https://github.com/Punosie/Streamify"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-success btn-sm"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://punosie.github.io/Streamify/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-primary btn-sm"
+                    >
+                      Live Preview
+                    </a>
+                  </Card.Footer>
+                </Card>
+              </Col>
+
+              {/* Project 4 */}
+              <Col md={4}>
+                <Card className="text-bg-dark border-secondary h-100 project-card">
+                  <Card.Body>
+                    <Card.Title  className= "border-bottom p-2 text-center">TrackIt</Card.Title>
+                    <Card.Text className="text-white-50">
                       A full-stack web app for managing income and expenses efficiently.
                     </Card.Text>
                   </Card.Body>
@@ -145,6 +182,51 @@ export default function App() {
                   </Card.Footer>
                 </Card>
               </Col>
+
+              {/* Project 5 */}
+              <Col md={4}>
+                <Card className="text-bg-dark border-secondary h-100 project-card">
+                  <Card.Body>
+                    <Card.Title  className= "border-bottom p-2 text-center">Text Editor</Card.Title>
+                    <Card.Text className="text-white-50">
+                      A Python Tkinter-based text editor with core features like save, find, and open.
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className="text-center">
+                    <a
+                      href="https://github.com/Punosie/Notepad.py"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-success btn-sm"
+                    >
+                      GitHub
+                    </a>
+                  </Card.Footer>
+                </Card>
+              </Col>
+
+              {/* Project 6 */}
+              <Col md={4}>
+                <Card className="text-bg-dark border-secondary h-100 project-card">
+                  <Card.Body>
+                    <Card.Title  className= "border-bottom p-2 text-center">File Renamer</Card.Title>
+                    <Card.Text className="text-white-50">
+                      Simple file renamer application created using Python and Tkinter
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className="text-center">
+                    <a
+                      href="https://github.com/Punosie/File-Renamer-GUI"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-success btn-sm"
+                    >
+                      GitHub
+                    </a>
+                  </Card.Footer>
+                </Card>
+              </Col>
+
             </Row>
           </MDBContainer>
         </Col>
