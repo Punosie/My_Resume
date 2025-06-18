@@ -80,7 +80,7 @@ export default function App() {
                       A low-latency trading simulator that features future mid-price predictions and real-time trade metrics such as slippage and latency.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer className="text-center">
+                  <Card.Footer className="flex justify-content-between text-center">
                     <a
                       href="https://github.com/Punosie/TradeSim"
                       target="_blank"
