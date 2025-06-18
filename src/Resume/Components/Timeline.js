@@ -71,7 +71,6 @@ export default function App() {
           <h3 className="px-5">Projects</h3>
           <MDBContainer className="p-5">
             <Row className="g-4">
-              {/* Project 6 */}
               <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
                   <Card.Body>
@@ -80,7 +79,7 @@ export default function App() {
                       A low-latency trading simulator that features future mid-price predictions and real-time trade metrics such as slippage and latency.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer className="flex justify-content-between text-center">
+                  <Card.Footer className="d-flex justify-content-between text-center">
                     <a
                       href="https://github.com/Punosie/TradeSim"
                       target="_blank"
@@ -89,7 +88,7 @@ export default function App() {
                     >
                       GitHub
                     </a>
-                                        <a
+                    <a
                       href="https://tradesim-shubhabha.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
