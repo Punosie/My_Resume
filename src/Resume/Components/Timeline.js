@@ -71,6 +71,35 @@ export default function App() {
           <h3 className="px-5">Projects</h3>
           <MDBContainer className="p-5">
             <Row className="g-4">
+              {/* Project 6 */}
+              <Col md={4}>
+                <Card className="text-bg-dark border-secondary h-100 project-card">
+                  <Card.Body>
+                    <Card.Title  className= "border-bottom p-2 text-center">TradeSim</Card.Title>
+                    <Card.Text className="text-white-50">
+                      A low-latency trading simulator that features future mid-price predictions and real-time trade metrics such as slippage and latency.
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className="text-center">
+                    <a
+                      href="https://github.com/Punosie/TradeSim"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-success btn-sm"
+                    >
+                      GitHub
+                    </a>
+                                        <a
+                      href="https://tradesim-shubhabha.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-outline-primary btn-sm"
+                    >
+                      Live Preview
+                    </a>
+                  </Card.Footer>
+                </Card>
+              </Col>
               {/* Project 1 */}
               <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
@@ -162,7 +191,7 @@ export default function App() {
               </Col>
 
               {/* Project 4 */}
-              <Col md={4}>
+              {/* <Col md={4}>
                 <Card className="text-bg-dark border-secondary h-100 project-card">
                   <Card.Body>
                     <Card.Title  className= "border-bottom p-2 text-center">TrackIt</Card.Title>
@@ -181,7 +210,7 @@ export default function App() {
                     </a>
                   </Card.Footer>
                 </Card>
-              </Col>
+              </Col> */}
 
               {/* Project 5 */}
               <Col md={4}>

@@ -68,6 +68,7 @@ function Progress() {
             <Card.Body className='pt-0'>
             <Card.Title className="mb-4 pb-2 border-bottom ">Backend</Card.Title>
               <div className='d-flex flex-wrap gap-2 justify-content-center'>
+                <Badge bg="success" style={badgeStyle}>FastAPI</Badge>
                 <Badge bg="success" style={badgeStyle}>Express.js</Badge>
                 <Badge bg="success" style={badgeStyle}>Node.js</Badge>
                 <Badge bg="success" style={badgeStyle}>MongoDB</Badge>
